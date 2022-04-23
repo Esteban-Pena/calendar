@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+h1{
+    color: white;
+}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: lightslategray;
+  text-align: center;
+  list-style-type: none;
+}
+
+.month li{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.prevMonth{
+  float: left;
+  padding-top: 10px;
+  background-color: transparent;
+}
+
+.nextMonth {
+  float: right;
+  padding-top: 10px;
+  background-color: transparent;
+}
+
+.calendar-weekDays{
+    background-color: lightsalmon;
+}
+
+.calendar-weekDays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.calendar-monthDays {
+  padding: 10px 0;
+  background-color: lightpink;
+  margin: 0;
+  list-style-type: none;
+}
+
+.calendar-monthDays li {
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.prev-date, .next-date{
+    opacity: 0.5;
+
+}
+
+
+
